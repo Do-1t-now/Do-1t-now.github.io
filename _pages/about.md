@@ -10,7 +10,7 @@ About me
 ======
 I am a research-oriented postgraduate student in Computational Pathology at the [Peking University Third Hospital](https://www.puh3.net.cn/), [Peking University](https://www.pku.edu.cn/). I am fortunate to be advised by [Prof. Zhou]. My research interests lie in predicting cancer prognosis and metastasis from histopathological whole-slide images, with a particular focus on the alignment and fusion of multimodal data.
 
-[Email](suchenghan25@stu.pku.edu.cn) / [Github](https://github.com/Do-1t-now) / [Wechat](E:/Sch/Pictures/hello guys.jpg) 
+[Email](suchenghan25@stu.pku.edu.cn) / [Github](https://github.com/Do-1t-now) / [Wechat](../images/hello guys.jpg) 
 
 A data-driven personal website
 ======
