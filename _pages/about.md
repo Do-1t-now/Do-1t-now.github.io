@@ -1,4 +1,4 @@
----
+![hello guys](https://github.com/user-attachments/assets/11d23540-feeb-4488-ab81-cf03d61c7052)---
 permalink: /
 title: "About me"
 author_profile: true
@@ -8,9 +8,9 @@ redirect_from:
 ---
 About me
 ======
-I am a research-oriented postgraduate student in Computational Pathology at the [Peking University Third Hospital](https://www.puh3.net.cn/), [Peking University](https://www.pku.edu.cn/). I am fortunate to be advised by [Prof. Zhou]. My research interests lie in predicting cancer prognosis and metastasis from histopathological whole-slide images, with a particular focus on the alignment and fusion of multimodal data.
+I am a research-oriented postgraduate student in Computational Pathology at the [Peking University Third Hospital](https://www.puh3.net.cn/), [Peking University](https://www.pku.edu.cn/). I am fortunate to be advised by Professor Zhou. My research interests lie in predicting cancer prognosis and metastasis from histopathological whole-slide images, with a particular focus on the alignment and fusion of multimodal data.
 
-[Email](suchenghan25@stu.pku.edu.cn) / [Github](https://github.com/Do-1t-now) / [Wechat](../images/hello guys.jpg) 
+[Email](suchenghan25@stu.pku.edu.cn) / [Github](https://github.com/Do-1t-now) / [Wechat](../images/hello_guys.jpg) 
 
 A data-driven personal website
 ======
