@@ -2,9 +2,9 @@
 permalink: /
 title: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+# redirect_from: 
+#  - /about/
+#  - /about.html
 ---
 
 I am a research-oriented postgraduate student in Computational Pathology at the [Peking University Third Hospital](https://www.puh3.net.cn/), [Peking University](https://www.pku.edu.cn/). I am fortunate to be advised by Professor Zhou. My research interests lie in predicting cancer prognosis and metastasis from histopathological whole-slide images, with a particular focus on the alignment and fusion of multimodal data.
