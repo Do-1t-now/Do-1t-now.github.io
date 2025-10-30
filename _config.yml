@@ -23,14 +23,14 @@ repository               : "do-1t-now.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "../images/suchenghan.png"
   name             : "苏诚翰"
   pronouns         : # example: "she/her"  
   bio              : "Willing is not enough; we must do."
   location         : "Beijing, China"
   employer         : "Peking University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "sch1979002973@163.com" 
 
   # Academic websites
   academia         : # URL
