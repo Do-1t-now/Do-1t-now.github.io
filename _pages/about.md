@@ -1,4 +1,3 @@
-![hello guys](https://github.com/user-attachments/assets/11d23540-feeb-4488-ab81-cf03d61c7052)---
 permalink: /
 title: "About me"
 author_profile: true
