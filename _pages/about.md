@@ -7,11 +7,11 @@ author_profile: true
 #  - /about.html
 ---
 
-I am a research-oriented postgraduate student in Computational Pathology at the [Peking University Third Hospital](https://www.puh3.net.cn/), [Peking University](https://www.pku.edu.cn/). I am fortunate to be advised by Professor Zhou. My research interests lie in predicting cancer prognosis and metastasis from histopathological whole-slide images, with a particular focus on the alignment and fusion of multimodal data.
+I am a research-oriented postgraduate student in Computational Pathology at the [Peking University Third Hospital](https://www.puh3.net.cn/). I am fortunate to be advised by Professor Zhou. My research interests lie in predicting cancer prognosis and metastasis from histopathological whole-slide images, with a particular focus on the alignment and fusion of multimodal data.
 
 [Email](mailto:suchenghan25@stu.pku.edu.cn) / [Github](https://github.com/Do-1t-now) / [Wechat](../images/hello_guys.jpg) 
 
-A data-driven personal website
+My first-year graduate courses
 ======
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
