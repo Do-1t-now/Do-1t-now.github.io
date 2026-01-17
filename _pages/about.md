@@ -17,9 +17,8 @@ My first-year graduate courses
 
 My homework
 ======
-使用LaTeX导出PDF
 ![](../images/LaTeX.png)
-[我的作业](../files/homework.pdf)
+[homework](../files/homework.pdf)
 
 
 For more info
