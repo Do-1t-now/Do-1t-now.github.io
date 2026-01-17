@@ -1,5 +1,8 @@
 ---
 title: "基于深度卷积神经网络——结直肠癌——病理图像分类"
+type："Computer Vision & Medical Imaging"
+permalink： /portfolio/pathology-tissue-classification
+date：2026-01-17 
 excerpt: "本项目基于PyTorch框架，使用ResNet50迁移学习模型对NCT-CRC-HE-100K结直肠癌病理图像数据集进行9类组织分类，通过混淆矩阵、ROC曲线和Grad-CAM热力图实现模型性能评估与可解释性分析。"
 collection: portfolio
 ---
