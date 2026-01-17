@@ -1,4 +1,4 @@
----
+--
 title： "基于深度卷积神经网络——结直肠癌——病理图像分类"
 collection：portfolio
 type："Computer Vision & Medical Imaging"
