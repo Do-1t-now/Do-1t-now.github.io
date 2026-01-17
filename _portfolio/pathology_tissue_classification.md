@@ -116,14 +116,14 @@ for epoch in range(50):
 ## 实验结果
 ### 混淆矩阵
 模型在验证集上的混淆矩阵如下，总体准确率达到99.7%：
-![混淆矩阵](/assets/images/portfolio/confusion_matrix.png)
+![混淆矩阵](../images/confusion_matrix.png)
 
 ### ROC曲线与AUC值
 各类别的ROC曲线下面积（AUC）均超过0.99，平均AUC为0.99，表明模型具有良好的分类性能：
-![ROC曲线](/assets/images/portfolio/roc_curve.png)
+![ROC曲线](../images/roc_curve.png)
 
 ### Grad-CAM可解释性分析
 通过Grad-CAM热力图可视化模型关注的病理区域，红色高亮区域表示模型在分类时最关注的区域。如果红色区域集中在细胞核密集处（对于LYM/TUM）或特定的纹理结构（对于MUS/STR），说明模型学到了正确的病理形态学特征，而非学习了背景噪声。
-![Grad-CAM热力图](/assets/images/portfolio/grad_cam.png)
+![Grad-CAM热力图](../images/grad_cam.png)
 
 
