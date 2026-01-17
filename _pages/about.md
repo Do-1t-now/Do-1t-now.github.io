@@ -15,6 +15,11 @@ My first-year graduate courses
 ======
 ![](../images/curriculum.png)
 
+My homework
+======
+使用LaTeX导出PDF
+![](../images/LaTeX.png)
+[我的作业](../files/homework.pdf)
 
 
 For more info
