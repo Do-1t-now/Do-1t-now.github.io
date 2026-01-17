@@ -1,17 +1,29 @@
-```yaml
 ---
-layout: post
 title: "基于深度卷积神经网络——结直肠癌——病理图像分类"
-author: 医学影像研究者
-date: 2026-01-17 14:30:00
-description: "本项目基于PyTorch框架，使用ResNet50迁移学习模型对NCT-CRC-HE-100K结直肠癌病理图像数据集进行9类组织分类，通过混淆矩阵、ROC曲线和Grad-CAM热力图实现模型性能评估与可解释性分析。"
+collection: portfolio
+type: "Computer Vision & Medical Imaging"
+permalink: /portfolio/pathology-tissue-classification
+date: 2026-01-17 
+excerpt: "本项目基于PyTorch框架，使用ResNet50迁移学习模型对NCT-CRC-HE-100K结直肠癌病理图像数据集进行9类组织分类，通过混淆矩阵、ROC曲线和Grad-CAM热力图实现模型性能评估与可解释性分析。"
 categories: ["医学影像", "深度学习", "计算机病理学"]
-tags: ["ResNet50", "NCT-CRC-HE-100K", "结直肠癌", "病理图像分类", "Grad-CAM"]
-image: /assets/images/portfolio/confusion_matrix.png
+tags:
+-ResNet50
+-NCT-CRC-HE-100K
+-Deep Learning 
+-病理图像分类 
+-Grad-CAM
+tech_stack:
+-name: Python
+-name: PyTorch
+-name: ResNet50
+-name: Numpy
+-name: Pandas
+-name: Sklearn
+-name: matplotlib
+-name: Seaborn
 ---
-
 ## 项目概述
-结直肠癌是全球范围内发病率第三的恶性肿瘤，病理图像分析是其诊断与分型的金标准。本项目基于PyTorch框架，采用**ResNet50**迁移学习模型对**NCT-CRC-HE-100K**结直肠癌病理图像数据集进行9类组织分类，通过混淆矩阵、ROC曲线和Grad-CAM热力图实现模型性能评估与可解释性分析，为病理诊断提供客观量化的辅助支持。
+本项目基于PyTorch框架，采用**ResNet50**迁移学习模型对**NCT-CRC-HE-100K**结直肠癌病理图像数据集进行9类组织分类，通过混淆矩阵、ROC曲线和Grad-CAM热力图实现模型性能评估与可解释性分析，为病理诊断提供客观量化的辅助支持。
 
 ## 数据集详情
 ### 数据集介绍
@@ -73,8 +85,8 @@ model.fc = nn.Linear(num_ftrs, 9)
 ### 训练参数
 - **优化器**：Adam（仅训练全连接层参数）
 - **学习率**：1e-4
-- **批量大小**：64
-- **训练轮数**：50
+- **批量大小**：128
+- **训练轮数**：3
 - **损失函数**：交叉熵损失（CrossEntropyLoss）
 - **设备**：GPU加速（CUDA）
 
@@ -118,24 +130,15 @@ for epoch in range(50):
 
 ## 实验结果
 ### 混淆矩阵
-模型在测试集上的混淆矩阵如下，总体准确率达到92.3%：
+模型在验证集上的混淆矩阵如下，总体准确率达到99.7%：
 ![混淆矩阵](/assets/images/portfolio/confusion_matrix.png)
 
-- 肿瘤组织（TUM）识别准确率最高（98.7%），表明模型对恶性病变的识别能力优异
-- 未分类组织（UNK）准确率最低（82.1%），主要因样本异质性较高
-
 ### ROC曲线与AUC值
-各类别的ROC曲线下面积（AUC）均超过0.95，平均AUC为0.98，表明模型具有良好的分类性能：
+各类别的ROC曲线下面积（AUC）均超过0.99，平均AUC为0.99，表明模型具有良好的分类性能：
 ![ROC曲线](/assets/images/portfolio/roc_curve.png)
 
 ### Grad-CAM可解释性分析
-通过Grad-CAM热力图可视化模型关注的病理区域，发现模型主要聚焦于细胞核密集区和异常细胞形态，与病理医生的诊断依据一致：
+通过Grad-CAM热力图可视化模型关注的病理区域，红色高亮区域表示模型在分类时最关注的区域。如果红色区域集中在细胞核密集处（对于LYM/TUM）或特定的纹理结构（对于MUS/STR），说明模型学到了正确的病理形态学特征，而非学习了背景噪声。
 ![Grad-CAM热力图](/assets/images/portfolio/grad_cam.png)
 
-## 讨论
-本项目基于ResNet50迁移学习实现了结直肠癌病理图像的高效分类，模型性能优异且具有良好的可解释性。未来可进一步优化方向包括：
-1. 结合多模态数据（如基因组学数据）提升分类准确率
-2. 优化模型结构以降低计算成本
-3. 开发交互式可视化工具辅助病理医生诊断
 
-**注意**：请将Notebook中生成的图片（confusion_matrix.png、roc_curve.png、grad_cam.png）放置于`/assets/images/portfolio/`目录下，以确保图片正常显示。
