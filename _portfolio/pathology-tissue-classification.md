@@ -1,4 +1,9 @@
---
+---
+title: "Portfolio item number 1"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+collection: portfolio
+---
+---
 title： "基于深度卷积神经网络——结直肠癌——病理图像分类"
 collection：portfolio
 type："Computer Vision & Medical Imaging"
